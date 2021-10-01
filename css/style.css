@@ -1,0 +1,24 @@
+/*  
+Author: Ryne Brown
+File Name: styles.css
+Date: 09/30/2021
+*/
+
+/* CSS Reset */
+
+body, header, nav, main, footer, img, h1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+/* Style rules for header content */
+
+header {
+    text-align: center;
+    font-size: 3em;
+    color: #373684;
+}
+ 
+header h1 {
+    font-style: italic;
+}
