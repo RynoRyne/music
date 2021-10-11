@@ -1,10 +1,10 @@
 /*  
-Author: Ryne Brown
+Author: CJ DiNofrio
 File Name: styles.css
-Date: 09/30/2021
+Date: 09/01/2021
 */
-/* CSS Reset */
 
+/* CSS Reset */
 body,
 header,
 nav,
@@ -21,6 +21,7 @@ img {
   max-width: 100%;
   display: block;
 }
+
 /* Style rules for header content */
 header {
   text-align: center;
@@ -31,6 +32,31 @@ header {
 header h1 {
   font-style: italic;
 }
+
+/* Style rules for navigation area */
+nav {
+  background-color: #373684;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 2em;
+}
+
+nav li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+
 /* Style rules for main content */
 main {
   padding: 2%;
@@ -48,6 +74,7 @@ main p {
   color: #373684;
   font-weight: bold;
 }
+
 #piano,
 #guitar,
 #violin {
@@ -61,6 +88,7 @@ main p {
   background-color: #c0caf7;
   padding: 1% 2%;
 }
+
 #contact {
   text-align: center;
 }
@@ -74,6 +102,7 @@ main p {
 .map {
   border: 5px solid #373684;
 }
+
 /* Style rules for footer content */
 footer {
   text-align: center;
