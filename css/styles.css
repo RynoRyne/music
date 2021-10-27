@@ -12,7 +12,11 @@ main,
 footer,
 img,
 h1,
-ul {
+ul,
+section,
+aside,
+figure,
+figcaption {
   margin: 0;
   padding: 0;
   border: 0;
@@ -23,11 +27,24 @@ img {
   display: block;
 }
 
+/* Style rule for box sizing applies to all elements */  
+* {  
+  box-sizing: border-box; 
+}
+
 /*Style rules for mobile viewport */
 
 /*Hide tab-desk class */
 .tab-desk {
   display: none;
+}
+
+aside{
+text-align: center;
+font-size: 1.5em;
+font-weight: bold;
+color: #373684;
+text-shadow: 3px 3px 10px #8280cb;
 }
 
 /* Style rules for header content */
